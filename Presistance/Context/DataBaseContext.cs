@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Application;
 using Domain.Models;
-
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace Presistance.Context
 {
@@ -15,7 +15,13 @@ namespace Presistance.Context
         public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options)
         {
         }   
-        DbSet<Product> Products { get; set; }
+       public  DbSet<Product> Products { get; set; }
+
+        public override int SaveChanges()
+        {
+            return base.SaveChanges();
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -24,5 +30,29 @@ namespace Presistance.Context
              .IsUnique();
         }
 
+        EntityEntry IDataBaseContext.Entry(object entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        int IDataBaseContext.SaveChanges()
+        {
+            throw new NotImplementedException();
+        }
+
+        int IDataBaseContext.SaveChanges(bool acceptAllChangesOnSuccess)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<int> IDataBaseContext.SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<int> IDataBaseContext.SaveChangesAsync(CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

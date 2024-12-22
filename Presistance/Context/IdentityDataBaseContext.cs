@@ -17,7 +17,7 @@ namespace Presistance.Context
         {
 
         }
-        DbSet<User> Users {  get; set; }
+       public  DbSet<User> Users {  get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
@@ -30,7 +30,7 @@ namespace Presistance.Context
             builder.Entity<IdentityUserToken<string>>().ToTable("UserTokens", "identity");
 
             builder.Entity<IdentityUser<string>>(entity => {
-                entity.Property(e => e.Email).IsRequired(false);
+                entity.Property(e => e.Email).IsRequired(true);
             });
 
             builder.Entity<IdentityUserLogin<string>>().HasKey(p => new
