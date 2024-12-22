@@ -142,3 +142,4 @@ C:\Users\SH.Rayan\source\repos\NadinSoftTask\Endpoint\bin\Debug\net8.0\Presistan
 C:\Users\SH.Rayan\source\repos\NadinSoftTask\Endpoint\bin\Debug\net8.0\Application.pdb
 C:\Users\SH.Rayan\source\repos\NadinSoftTask\Endpoint\bin\Debug\net8.0\Domain.pdb
 C:\Users\SH.Rayan\source\repos\NadinSoftTask\Endpoint\obj\Debug\net8.0\Endpoint.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\SH.Rayan\source\repos\NadinSoftTask\Endpoint\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

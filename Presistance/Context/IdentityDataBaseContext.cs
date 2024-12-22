@@ -1,4 +1,4 @@
-﻿using Application;
+﻿using Application.Contexts;
 using Domain.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Presistance.Context
 {
-    public class IdentityDataBaseContext : IdentityDbContext   , IIdentityDataBaseContext  
+    public class IdentityDataBaseContext : IdentityDbContext<IdentityUser>   , IIdentityDataBaseContext  
     {
         public IdentityDataBaseContext(DbContextOptions<IdentityDataBaseContext> options) : base(options)
         {

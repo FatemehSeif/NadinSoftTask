@@ -1,3 +1,4 @@
+using Application.Services.Account;
 using Domain.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -11,16 +12,27 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<EmailService>();
+
 var Connection = builder.Configuration.GetConnectionString("DefaultConnection"); 
 builder.Services.AddDbContext<DataBaseContext>(option => option.UseSqlServer(Connection, b => b.MigrationsAssembly("Presistance")));
 
-builder.Services.AddIdentity<User, IdentityRole>(p =>
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(p =>
 {
-    p.User.RequireUniqueEmail = true;
+    p.User.RequireUniqueEmail =true;
 
     p.SignIn.RequireConfirmedEmail = false;
 }).AddEntityFrameworkStores<IdentityDataBaseContext>()
 .AddDefaultTokenProviders();
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequiredLength = 6;
+});
+
 builder.Services.AddDbContext<IdentityDataBaseContext>(option => option.UseSqlServer(Connection, a => a.MigrationsAssembly("Presistance")));
 
 var app = builder.Build();
@@ -38,7 +50,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
