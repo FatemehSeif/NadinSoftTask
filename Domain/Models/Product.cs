@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -28,5 +29,9 @@ namespace Domain.Models
         public string ManufactureEmail { get; set; }
 
         public bool IsAvailable { get; set; }
+
+        [Required]
+        public string CreatedById { get; set; } 
+        public User CreatedBy { get; set; }
     }
 }

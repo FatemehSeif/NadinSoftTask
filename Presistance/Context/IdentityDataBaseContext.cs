@@ -3,21 +3,39 @@ using Domain.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Presistance.Context
 {
-    public class IdentityDataBaseContext : IdentityDbContext<IdentityUser>   , IIdentityDataBaseContext  
+    public class IdentityDataBaseContext : IdentityDbContext<IdentityUser>, IIdentityDataBaseContext
     {
+       
         public IdentityDataBaseContext(DbContextOptions<IdentityDataBaseContext> options) : base(options)
         {
-
         }
-       public  DbSet<User> Users {  get; set; }
+        public  DbSet<User> Users {  get; set; }
+        public EntityEntry Entry([NotNull] object entity)
+        {
+            return base.Entry(entity);
+        }
+
+
+        public override int SaveChanges()
+        {
+            return base.SaveChanges();
+        }
+
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            return base.SaveChangesAsync(cancellationToken);
+        }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
@@ -49,6 +67,7 @@ namespace Presistance.Context
                 p.LoginProvider,
                 p.Name
             });
+       
         }
     }
 }

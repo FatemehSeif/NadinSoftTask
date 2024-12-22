@@ -5,12 +5,13 @@ using System.Net.Mail;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using Application.DTOs.AccountDtos;
 
 namespace Application.Services.Account
 {
     public class EmailService
     {
-        public async Task ExecuteAsync( EmailModel email)
+        public async Task ExecuteAsync( EmailDto email)
         {
             MailMessage mail = new MailMessage()
             {
@@ -30,16 +31,5 @@ namespace Application.Services.Account
         }
     }
 
-    public class EmailModel
-    {
-        public EmailModel(string to, string subject, string body)
-        {
-            To = to;
-            Subject = subject;
-            Body = body;
-        }
-        public string To { get; set; }
-        public string Subject { get; set; }
-        public string Body { get; set; }
-    }
+  
 }

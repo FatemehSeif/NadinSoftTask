@@ -1,25 +1,18 @@
-﻿using Domain.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
+using Domain.Models;
+using System.Threading;
 using System.Threading.Tasks;
-
+using System.Diagnostics.CodeAnalysis;
 namespace Application.Contexts
 {
     public interface IDataBaseContext
     {
-        DbSet<Product> Products { get; set; }
+         public DbSet<Product> Products { get; set; }
 
         EntityEntry Entry([NotNull] object entity);
+
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
         int SaveChanges();
-        int SaveChanges(bool acceptAllChangesOnSuccess);
-        Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default);
-
-        Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken());
-
     }
 }

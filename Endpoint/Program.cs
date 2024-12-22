@@ -1,8 +1,13 @@
 using Application.Services.Account;
+using Application.Services.Product;
 using Domain.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Presistance.Context;
+using AutoMapper;
+
+using Infrustructure;
+using Application.Contexts;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +18,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<EmailService>();
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+builder.Services.AddScoped<IDataBaseContext, DataBaseContext>();
+builder.Services.AddScoped<IIdentityDataBaseContext, IdentityDataBaseContext>();
 
 var Connection = builder.Configuration.GetConnectionString("DefaultConnection"); 
 builder.Services.AddDbContext<DataBaseContext>(option => option.UseSqlServer(Connection, b => b.MigrationsAssembly("Presistance")));

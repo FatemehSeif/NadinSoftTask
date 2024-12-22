@@ -11,7 +11,7 @@ using Presistance.Context;
 
 namespace Presistance.Migrations.IdentityDataBase
 {
-    [DbContext(typeof(IdentityDataBaseContext))]
+    [DbContext(typeof(DataBaseContext))]
     [Migration("20241222162707_up")]
     partial class up
     {

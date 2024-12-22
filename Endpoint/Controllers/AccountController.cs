@@ -1,4 +1,5 @@
-﻿using Application.Services.Account;
+﻿using Application.DTOs.AccountDtos;
+using Application.Services.Account;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -21,14 +22,6 @@ namespace Endpoint.Controllers
             _emailService = emailService;
             _signInManager = signInManager;
         }
-        public class RegisterModel
-        {
-
-            public string Email { get; set; }
-            public string Password { get; set; }
-            public string FullName { get; set; }
-            public string PhoneNumber { get; set; }
-        }
 
 
 
@@ -36,7 +29,7 @@ namespace Endpoint.Controllers
 
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] RegisterModel register)
+        public async Task<IActionResult> Register([FromBody] RegisterDto register)
         {
             if (!ModelState.IsValid)
             {
@@ -68,7 +61,7 @@ namespace Endpoint.Controllers
                
                 string body = $"برای تأیید حساب کاربری خود لطفاً بر روی لینک زیر کلیک کنید: <br/> <a href=\"{callbackUrl}\">تأیید حساب</a>";
                 string subject = "تایید حساب";
-                await _emailService.ExecuteAsync(new EmailModel  ( newUser.Email, subject , body ));
+                await _emailService.ExecuteAsync(new EmailDto  ( newUser.Email, subject , body ));
 
                 return Ok("ثبت‌نام انجام شد. لطفاً ایمیل خود را برای تأیید بررسی کنید.");
             }
@@ -105,14 +98,10 @@ namespace Endpoint.Controllers
             }
         }
 
-        public class LoginModel
-        {
-            public string EmailOrPhone { get; set; } 
-            public string Password { get; set; }
-        }
+      
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginModel loginModel)
+        public async Task<IActionResult> Login([FromBody] LoginDto loginModel)
         {
             if (!ModelState.IsValid)
             {

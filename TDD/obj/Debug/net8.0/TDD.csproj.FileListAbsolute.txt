@@ -98,3 +98,4 @@ C:\Users\SH.Rayan\source\repos\NadinSoftTask\TDD\obj\Debug\net8.0\refint\TDD.dll
 C:\Users\SH.Rayan\source\repos\NadinSoftTask\TDD\obj\Debug\net8.0\TDD.pdb
 C:\Users\SH.Rayan\source\repos\NadinSoftTask\TDD\obj\Debug\net8.0\TDD.genruntimeconfig.cache
 C:\Users\SH.Rayan\source\repos\NadinSoftTask\TDD\obj\Debug\net8.0\ref\TDD.dll
+C:\Users\SH.Rayan\source\repos\NadinSoftTask\TDD\bin\Debug\net8.0\AutoMapper.dll
