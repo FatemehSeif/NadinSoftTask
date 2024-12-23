@@ -126,7 +126,7 @@ namespace Endpoint.Controllers
                 return Unauthorized("کاربر پیدا نشد.");
             }
 
-            // بررسی پسورد وارد شده
+          
             var result = await _signInManager.PasswordSignInAsync(user, loginModel.Password, false, false);
 
             if (result.Succeeded)

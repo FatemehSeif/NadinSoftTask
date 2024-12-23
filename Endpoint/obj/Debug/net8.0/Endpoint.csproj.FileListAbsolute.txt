@@ -147,3 +147,6 @@ C:\Users\SH.Rayan\source\repos\NadinSoftTask\Endpoint\bin\Debug\net8.0\AutoMappe
 C:\Users\SH.Rayan\source\repos\NadinSoftTask\Endpoint\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\SH.Rayan\source\repos\NadinSoftTask\Endpoint\bin\Debug\net8.0\Infrustructure.dll
 C:\Users\SH.Rayan\source\repos\NadinSoftTask\Endpoint\bin\Debug\net8.0\Infrustructure.pdb
+C:\Users\SH.Rayan\source\repos\NadinSoftTask\Endpoint\bin\Debug\net8.0\MediatR.dll
+C:\Users\SH.Rayan\source\repos\NadinSoftTask\Endpoint\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\SH.Rayan\source\repos\NadinSoftTask\Endpoint\bin\Debug\net8.0\MediatR.Contracts.dll

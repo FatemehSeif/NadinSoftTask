@@ -1,38 +1,37 @@
 ﻿using Application.Contexts;
+using Application.DTOs.ProductDtos;
+using AutoMapper;
+using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Domain;
-using Application.DTOs.ProductDtos;
-using Microsoft.EntityFrameworkCore;
-using AutoMapper;
 
-namespace Application.Services.Product.CRUD
+namespace Application.Services.Product.CRUD.Commands
 {
-    public interface IAddProduct
+
+    public interface IAddProductCommand
     {
-        Task AddProductAsync(ProductDto product);
+        Task ExecuteAsync(ProductDto productDto);
     }
-    public class AddProduct : IAddProduct
+
+    public class AddProductCommand : IAddProductCommand
     {
         private readonly IDataBaseContext _context;
         private readonly IMapper _mapper;
 
-        public AddProduct(IDataBaseContext context, IMapper mapper)
+        public AddProductCommand(IDataBaseContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
 
-        public async Task AddProductAsync(ProductDto productDto)
+        public async Task ExecuteAsync(ProductDto productDto)
         {
             var product = _mapper.Map<Domain.Models.Product>(productDto);
             await _context.Products.AddAsync(product);
             await _context.SaveChangesAsync();
         }
     }
-
-
 }

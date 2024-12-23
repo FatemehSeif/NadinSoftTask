@@ -56,7 +56,11 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[13.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

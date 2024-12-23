@@ -8,6 +8,9 @@ using AutoMapper;
 
 using Infrustructure;
 using Application.Contexts;
+using Application.Services.Product.CRUD.Commands;
+using MediatR;
+using Application.Services.Product.CRUD.Queries;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,9 +22,19 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<EmailService>();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
-
+builder.Services.AddMediatR(typeof(AddProductCommand).Assembly);
+builder.Services.AddMediatR(typeof(GetProductByIdQuery).Assembly);
+builder.Services.AddMediatR(typeof(EditProductCommand).Assembly);
+builder.Services.AddMediatR(typeof(DeleteProductCommand).Assembly);
+builder.Services.AddMediatR(typeof(GetProductsByUserQuery).Assembly);
+builder.Services.AddScoped<IAddProductCommand, AddProductCommand>();
 builder.Services.AddScoped<IDataBaseContext, DataBaseContext>();
 builder.Services.AddScoped<IIdentityDataBaseContext, IdentityDataBaseContext>();
+builder.Services.AddScoped<IEditProductCommandHandler, EditProductCommandHandler>();
+builder.Services.AddScoped<IDeleteProductCommandHandler, DeleteProductCommandHandler>();
+builder.Services.AddScoped<IGetProductsByUserQueryHandler, GetProductsByUserQueryHandler>();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 
 var Connection = builder.Configuration.GetConnectionString("DefaultConnection"); 
 builder.Services.AddDbContext<DataBaseContext>(option => option.UseSqlServer(Connection, b => b.MigrationsAssembly("Presistance")));

@@ -10,9 +10,11 @@ namespace Infrustructure
         private readonly IDataBaseContext context; 
         public MappingProfile()
         {
-            CreateMap<Domain.Models.Product, ProductDto>()
-                .ForMember(dto => dto.CreatedBy, opt => opt
-                .MapFrom(src => src.CreatedBy)).ReverseMap();
+            CreateMap<ProductDto, Domain.Models.Product>()
+               .ForMember(dest => dest.CreatedBy, opt => opt.Ignore());
+               
+            CreateMap< Domain.Models.Product, ProductDto>();
+             
 
             CreateMap<Domain.Models.User, UserDto>();
         }

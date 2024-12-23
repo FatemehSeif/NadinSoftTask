@@ -1,0 +1,370 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD83CFF-4C95-4C99-AE0F-BE35F87B3C28}|Endpoint\\Endpoint.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\endpoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD83CFF-4C95-4C99-AE0F-BE35F87B3C28}|Endpoint\\Endpoint.csproj|solutionrelative:endpoint\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{603F67EF-A762-432B-B77B-1564BBCA315D}|Infrustructure\\Infrustructure.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\infrustructure\\infrustructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{603F67EF-A762-432B-B77B-1564BBCA315D}|Infrustructure\\Infrustructure.csproj|solutionrelative:infrustructure\\infrustructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31FFD046-5373-4C5D-B4AE-9A412801AF4B}|Presistance\\Presistance.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\presistance\\presistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{31FFD046-5373-4C5D-B4AE-9A412801AF4B}|Presistance\\Presistance.csproj|solutionrelative:presistance\\presistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD83CFF-4C95-4C99-AE0F-BE35F87B3C28}|Endpoint\\Endpoint.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\endpoint\\endpoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4AD83CFF-4C95-4C99-AE0F-BE35F87B3C28}|Endpoint\\Endpoint.csproj|solutionrelative:endpoint\\endpoint.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD83CFF-4C95-4C99-AE0F-BE35F87B3C28}|Endpoint\\Endpoint.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\endpoint\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD83CFF-4C95-4C99-AE0F-BE35F87B3C28}|Endpoint\\Endpoint.csproj|solutionrelative:endpoint\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{603F67EF-A762-432B-B77B-1564BBCA315D}|Infrustructure\\Infrustructure.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\infrustructure\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{603F67EF-A762-432B-B77B-1564BBCA315D}|Infrustructure\\Infrustructure.csproj|solutionrelative:infrustructure\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\application\\dtos\\productdtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|solutionrelative:application\\dtos\\productdtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\application\\dtos\\accountdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|solutionrelative:application\\dtos\\accountdtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57DC54C4-5F1B-4A64-9A20-41F4918FB54C}|Domain\\Domain.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57DC54C4-5F1B-4A64-9A20-41F4918FB54C}|Domain\\Domain.csproj|solutionrelative:domain\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\application\\services\\product\\crud\\commands\\addproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|solutionrelative:application\\services\\product\\crud\\commands\\addproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\application\\dtos\\accountdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|solutionrelative:application\\dtos\\accountdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\application\\services\\product\\crud\\queries\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|solutionrelative:application\\services\\product\\crud\\queries\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\application\\services\\product\\crud\\queries\\getproductbyuseridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|solutionrelative:application\\services\\product\\crud\\queries\\getproductbyuseridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\application\\services\\product\\crud\\commands\\editproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|solutionrelative:application\\services\\product\\crud\\commands\\editproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\application\\services\\product\\crud\\commands\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|solutionrelative:application\\services\\product\\crud\\commands\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AD83CFF-4C95-4C99-AE0F-BE35F87B3C28}|Endpoint\\Endpoint.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\endpoint\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AD83CFF-4C95-4C99-AE0F-BE35F87B3C28}|Endpoint\\Endpoint.csproj|solutionrelative:endpoint\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\application\\contexts\\idatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|solutionrelative:application\\contexts\\idatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\application\\contexts\\iidentitydatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|solutionrelative:application\\contexts\\iidentitydatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|c:\\users\\sh.rayan\\source\\repos\\nadinsofttask\\application\\dtos\\accountdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C73178C4-AF00-4AC7-A2AF-53738DCB0A26}|Application\\Application.csproj|solutionrelative:application\\dtos\\accountdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 981,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Endpoint\\Program.cs",
+              "RelativeDocumentMoniker": "Endpoint\\Program.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Endpoint\\Program.cs",
+              "RelativeToolTip": "Endpoint\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:14:52.389Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Endpoint",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Endpoint\\Endpoint.csproj",
+              "RelativeDocumentMoniker": "Endpoint\\Endpoint.csproj",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Endpoint\\Endpoint.csproj",
+              "RelativeToolTip": "Endpoint\\Endpoint.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T21:15:10.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Presistance",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Presistance\\Presistance.csproj",
+              "RelativeDocumentMoniker": "Presistance\\Presistance.csproj",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Presistance\\Presistance.csproj",
+              "RelativeToolTip": "Presistance\\Presistance.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T21:14:53.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Infrustructure\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Infrustructure\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Infrustructure\\MappingProfile.cs",
+              "RelativeToolTip": "Infrustructure\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:25:25.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\DTOs\\ProductDtos\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ProductDtos\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\DTOs\\ProductDtos\\ProductDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\ProductDtos\\ProductDto.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:25:03.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Infrustructure",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Infrustructure\\Infrustructure.csproj",
+              "RelativeDocumentMoniker": "Infrustructure\\Infrustructure.csproj",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Infrustructure\\Infrustructure.csproj",
+              "RelativeToolTip": "Infrustructure\\Infrustructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-23T20:44:44.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetProductByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\Services\\Product\\CRUD\\Queries\\GetProductByIdQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Product\\CRUD\\Queries\\GetProductByIdQuery.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\Services\\Product\\CRUD\\Queries\\GetProductByIdQuery.cs",
+              "RelativeToolTip": "Application\\Services\\Product\\CRUD\\Queries\\GetProductByIdQuery.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA5wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:39:57.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\Services\\Product\\CRUD\\Commands\\AddProductCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Product\\CRUD\\Commands\\AddProductCommand.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\Services\\Product\\CRUD\\Commands\\AddProductCommand.cs",
+              "RelativeToolTip": "Application\\Services\\Product\\CRUD\\Commands\\AddProductCommand.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAuwB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:43:13.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Domain\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Domain\\Models\\Product.cs",
+              "RelativeToolTip": "Domain\\Models\\Product.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwBMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:46:35.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\DTOs\\AccountDtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\AccountDtos\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\DTOs\\AccountDtos\\RegisterDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\AccountDtos\\RegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T21:07:55.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Endpoint\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Endpoint\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Endpoint\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Endpoint\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAowC8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:44:25.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\DTOs\\AccountDtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\AccountDtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\DTOs\\AccountDtos\\UserDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\AccountDtos\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:57:00.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Endpoint\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Endpoint\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Endpoint\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Endpoint\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:44:04.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\Services\\Product\\CRUD\\Commands\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Product\\CRUD\\Commands\\DeleteProductCommand.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\Services\\Product\\CRUD\\Commands\\DeleteProductCommand.cs",
+              "RelativeToolTip": "Application\\Services\\Product\\CRUD\\Commands\\DeleteProductCommand.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAmwCMAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:37:35.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\Services\\Product\\CRUD\\Commands\\EditProductCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Product\\CRUD\\Commands\\EditProductCommand.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\Services\\Product\\CRUD\\Commands\\EditProductCommand.cs",
+              "RelativeToolTip": "Application\\Services\\Product\\CRUD\\Commands\\EditProductCommand.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:25:27.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetProductByUserIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\Services\\Product\\CRUD\\Queries\\GetProductByUserIdQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Product\\CRUD\\Queries\\GetProductByUserIdQuery.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\Services\\Product\\CRUD\\Queries\\GetProductByUserIdQuery.cs",
+              "RelativeToolTip": "Application\\Services\\Product\\CRUD\\Queries\\GetProductByUserIdQuery.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAmwBoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:40:38.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IIdentityDataBaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\Contexts\\IIdentityDataBaseContext.cs",
+              "RelativeDocumentMoniker": "Application\\Contexts\\IIdentityDataBaseContext.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\Contexts\\IIdentityDataBaseContext.cs",
+              "RelativeToolTip": "Application\\Contexts\\IIdentityDataBaseContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T18:29:25.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IDataBaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\Contexts\\IDataBaseContext.cs",
+              "RelativeDocumentMoniker": "Application\\Contexts\\IDataBaseContext.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\Contexts\\IDataBaseContext.cs",
+              "RelativeToolTip": "Application\\Contexts\\IDataBaseContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T18:29:44.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\DTOs\\AccountDtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\AccountDtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\SH.Rayan\\source\\repos\\NadinSoftTask\\Application\\DTOs\\AccountDtos\\LoginDto.cs",
+              "RelativeToolTip": "Application\\DTOs\\AccountDtos\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T18:29:43.163Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

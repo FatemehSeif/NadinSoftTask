@@ -17,6 +17,6 @@ namespace Application.DTOs.ProductDtos
         public string ManufactureEmail { get; set; }
         public bool IsAvailable { get; set; }
         public string CreatedById { get; set; }
-        public User CreatedBy { get; set; }
+        //public User CreatedBy { get; set; }
     }
 }
